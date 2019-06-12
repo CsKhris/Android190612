@@ -3,6 +3,7 @@ package com.example.app190612;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,5 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         //화면 출력을 위해 View를 설정하는 Method
         setContentView(R.layout.activity_main);
+        //Log Cat 출력
+        Log.e("change", "Code변경");
     }
 }
