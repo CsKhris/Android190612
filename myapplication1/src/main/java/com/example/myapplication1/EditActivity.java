@@ -71,7 +71,7 @@ public class EditActivity extends AppCompatActivity {
 
         Button keyboardhide = (Button)findViewById(R.id.keyboardhide);
         keyboardhide.setOnClickListener(new Button.OnClickListener(){
-            public void onClick(View v){
+            public void onClick(View v) {
                 imm.hideSoftInputFromWindow(edit.getWindowToken(), 0);
             }
         });
