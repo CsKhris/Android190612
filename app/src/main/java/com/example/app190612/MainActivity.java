@@ -16,5 +16,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         //Log Cat 출력
         Log.e("change", "Code변경");
+
     }
 }
